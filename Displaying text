@@ -1,0 +1,7 @@
+#Write a program that will display the poem on the screen:
+
+print("There once was a movie star icon")
+print("who prefferred to sleep with the light on")
+print("They learned how to code")
+print("a device that sure glowed ")
+print("and lit up the light using Python !")
