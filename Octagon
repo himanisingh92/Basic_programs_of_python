@@ -1,0 +1,13 @@
+#Get 'turtle' to draw an Octagon.
+#To calculate the angle , you take 360 degrees and divide it by the number of sides of the shape you are drawing.
+#Add a nested Loop to Draw a Smaller version of the object inside.
+import turtle
+nbrSides = 8
+turtle.color('teal')
+turtle.width('3')
+for steps in range (nbrSides):
+    turtle.forward(100)
+    turtle.right(360/nbrSides)
+    for moresteps in range(nbrSides):
+        turtle.forward(50)
+        turtle.right(360/nbrSides)
