@@ -1,0 +1,9 @@
+#Write a code to open and read a file
+#Allow the user to specify the file name
+#Add error handling to provide a suitable error message if the file specified by the user could not be found
+
+try:
+    f = open("demofile.txt", "r")
+    print(f.read())
+except:
+    print("File not Found")
