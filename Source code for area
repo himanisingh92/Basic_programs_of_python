@@ -1,0 +1,20 @@
+#Calculate the area of the circle ,Rectangle and Square after taking values from the user.
+
+#Calculate AREA OF CIRCLE
+import math
+r = float(input('Enter the radius of the circle :'))
+area = math.pi * r * r
+print("Area of the circle is : %.2f" %area)
+
+#Calculate AREA OF RECTANGLE
+import math
+width = float(input('Enter the width of the rectangle :'))
+height = float(input('Enter the height of the rectangle :'))
+area = width * height
+print("Area of the rectangel is : %.2f" %area)
+
+#Calculate AREA OF SQUARE
+import math
+side = float(input('Enter the side of the square :'))
+area = side * side
+print("Area of the square is : %.2f" %area)
