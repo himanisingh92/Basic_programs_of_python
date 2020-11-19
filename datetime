@@ -1,0 +1,13 @@
+#Ask a user to enter the deadline for their project
+#Tell them how many days they have to complete the project
+#For extra credit, give them the answer as a combination of weeks and days.
+
+import datetime
+import time
+import math
+deadlineInput = input("Enter the Deadline for your Project (mm/dd/yyyy) :")
+deadline = datetime.datetime.strptime(deadlineInput , '%m/%d/%Y').date()
+print("Your Deadline is " + deadlineInput)
+currentDate = datetime.date.today()
+daysLeft = deadline - currentDate
+print("you have " + str(daysLeft) + "left until the deadline")
