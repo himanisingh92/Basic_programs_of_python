@@ -1,0 +1,10 @@
+#Create a function to simplify writing to files
+#Set the function to accept parameters :one for text; one for the name of the file
+#Add the code that will write the text out to the file
+
+def simplifyFiles(text, name):
+    Files = text + ', ' + name
+    print(Files)
+    return
+simplifyFiles('Hii','Program')
+simplifyFiles('Helo World','Earth')
