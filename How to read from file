@@ -1,0 +1,10 @@
+#WAP that will print the names and ages of the guests in the guest list file
+
+def guestList(name,age):
+    List = name + ', ' + age
+    print(List)
+    return
+guestList('Susan','32')
+guestList('Mike','33')
+guestList('Christopher','80')
+guestList('Bill Gates','100')
