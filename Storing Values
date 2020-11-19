@@ -1,0 +1,5 @@
+#WAP that allows a person to personalize a story
+
+color = input("What is your favourite color :")
+fruit = input("What is your favourite fruit :")
+print("The "+color+" "+fruit+" is being eaten by me")
